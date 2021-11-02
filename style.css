@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/DxmBSgUYKis/1600x900");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+header.bintan {
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/SP3H5t8dEms/900x1600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+}
+
+.landingdesc p {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+div.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 25vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 90%;
+    color: white;
+}
+
+div.landing h1 {
+    font-size: 72pt;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+h3 {
+    font-size: 24pt;
+    font-family: 'Kaushan Script', cursive;
+}
+
+div.opening {
+    display: flex;
+    padding: 75px 100px 75px 150px;
+}
+
+span.desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+span.descphoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.judul {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tempat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 0 0 50px 0;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.5);
+}
+
+.fototempat {
+    border-radius: 10px 10px 0 0;
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.namatempat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30%;
+}
+
+.divider {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    margin: 100px 0 50px 0;
+}
+
+.loc {
+    display: flex;
+    justify-content: center;
+}
+
+.locphoto {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 0 20px 100px;
+}
+
+.locphoto img {
+    border-radius: 10px;
+}
+
+.locdesc {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 50px 100px 20px 50px;
+}
+
+.button {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    color: cadetblue;
+    transition: 0.2s;
+}
+
+.button:hover {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    color: cadetblue;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px;
+    width: 50%;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px;
+    width: 50%;
+}
+
+/* Responsive Breakpoint */
+/* Ukuran Tablet */
+@media screen and (max-width: 768px) {
+    div.landing h1 {
+        font-size: 48pt;
+    }
+
+    div.opening {
+        display: flex;
+        padding: 50px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span.desc {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    span.desc h1 {
+        text-align: center;
+    }
+    
+    span.descphoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+
+    .judul {
+        padding: 0 30px;
+    }
+
+    .loc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .locphoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    
+    .locphoto img {
+        border-radius: 10px;
+        width: 80vw;
+    }
+    
+    .locdesc {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        padding: 0 0 50px 0;
+    }
+
+    .divider {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+        margin: 50px 0;
+    }
+}
+
+/* Ukuran mobile */
+@media screen and (max-width: 576px) {
+    div.landing h1 {
+        font-size: 36pt;
+    }
+
+    div.opening {
+        display: flex;
+        padding: 50px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    span.desc {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    span.desc h1 {
+        text-align: center;
+    }
+    
+    span.descphoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+    }
+
+    .judul {
+        padding: 0 30px;
+    }
+
+    .loc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .locphoto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    
+    .locphoto img {
+        border-radius: 10px;
+        width: 80vw;
+    }
+    
+    .locdesc {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+        padding: 0 0 50px 0;
+    }
+
+    .divider {
+        height: 100px;
+        width: 100%;
+        object-fit: cover;
+        margin: 50px 0;
+    }
+}

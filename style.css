@@ -9,18 +9,20 @@ a {
 
 header {
     height: 100vh;
-    background-image: url("https://source.unsplash.com/DxmBSgUYKis/1600x900");
+    background-image: url("sutirta-budiman-DxmBSgUYKis-unsplash.jpg");
+    /* https://unsplash.com/photos/DxmBSgUYKis */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: 0 80%;
 }
 
 header.bintan {
     height: 100vh;
-    background-image: url("https://source.unsplash.com/SP3H5t8dEms/900x1600");
+    background-image: url("akudui-SP3H5t8dEms-unsplash.jpg");
+    /* https://unsplash.com/photos/SP3H5t8dEms */
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 40%;
+    background-position: center;
 }
 
 .landingdesc p {

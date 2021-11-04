@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -11,6 +12,7 @@ header {
     height: 100vh;
     background-image: url("sutirta-budiman-DxmBSgUYKis-unsplash.jpg");
     /* https://unsplash.com/photos/DxmBSgUYKis */
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 80%;
@@ -20,6 +22,7 @@ header.bintan {
     height: 100vh;
     background-image: url("akudui-SP3H5t8dEms-unsplash.jpg");
     /* https://unsplash.com/photos/SP3H5t8dEms */
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

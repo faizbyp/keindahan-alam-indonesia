@@ -10,22 +10,35 @@ a {
 
 header {
     height: 100vh;
-    background-image: url("sutirta-budiman-DxmBSgUYKis-unsplash.jpg");
+    background-image: url("img/sutirta-budiman-DxmBSgUYKis-unsplash.jpg");
     /* https://unsplash.com/photos/DxmBSgUYKis */
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 80%;
+    background-attachment: fixed;
 }
 
 header.bintan {
     height: 100vh;
-    background-image: url("akudui-SP3H5t8dEms-unsplash.jpg");
+    background-image: url("img/akudui-SP3H5t8dEms-unsplash.jpg");
     /* https://unsplash.com/photos/SP3H5t8dEms */
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+}
+
+header.bajo {
+    height: 100vh;
+    background-image: url("img/william-kusno-tq_h8bCNhKQ-unsplash.jpg");
+    /* https://unsplash.com/photos/SP3H5t8dEms */
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .landingdesc p {
@@ -206,6 +219,11 @@ footer {
     padding: 50px;
     width: 50%;
     color: white;
+}
+
+.contact a {
+    color: white;
+    text-decoration: underline;
 }
 
 .top {
